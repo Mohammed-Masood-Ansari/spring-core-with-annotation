@@ -6,9 +6,10 @@ import org.springframework.stereotype.Component;
 @Component
 public class Bird {
 
+	@Autowired
 	Wing wing;
 
-	@Autowired
+	
 	public Bird(Wing wing) {
 		super();
 		this.wing = wing;
